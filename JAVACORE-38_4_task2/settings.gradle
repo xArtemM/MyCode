@@ -1,0 +1,5 @@
+rootProject.name = 'JAVACORE-38_4_task2'
+include 'db'
+include 'api'
+include 'service'
+
