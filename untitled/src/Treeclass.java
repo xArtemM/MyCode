@@ -1,4 +1,4 @@
-public class Treeclass implements Comparable<Treeclass> {
+public class Treeclass  {
 
     public String name;
     public Integer age;
@@ -8,9 +8,9 @@ public class Treeclass implements Comparable<Treeclass> {
         this.age = age;
     }
 
-    @Override
-    public int compareTo(Treeclass o) {
-        return age.compareTo(o.age);
+
+    public static int comppareTo() {
+        return 0;
     }
 
     @Override
